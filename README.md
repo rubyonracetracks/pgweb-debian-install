@@ -12,6 +12,9 @@ sudo apt-get update; sudo apt-get -y install git
 ## Procedure
 Enter the following commands in the terminal:
 ```
+cd
+mkdir -p rubyonracetracks
+cd rubyonracetracks
 git clone https://github.com/rubyonracetracks/pgweb-debian-install.git
 cd pgweb-debian-install
 bash main.sh
