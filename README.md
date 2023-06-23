@@ -16,7 +16,6 @@ git clone https://github.com/rubyonracetracks/pgweb-debian-install.git
 cd pgweb-debian-install
 bash main.sh
 ```
-Just enter the command ```bash main.sh```.
 
 ## What's wrong with pgAdmin 3?
 It's obsolete and does not support any version of PostgreSQL beyond version 9.
