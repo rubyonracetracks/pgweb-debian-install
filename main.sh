@@ -8,4 +8,4 @@ set -eo pipefail
 DATE=`date +%Y%m%d-%H%M%S`
 
 mkdir -p log
-bash exec-main.sh 2>&1 | tee log/log-$DATE.txt
+bin/main 2>&1 | tee log/log-$DATE.txt

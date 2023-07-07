@@ -9,9 +9,9 @@ echo '-------------------'
 echo 'sudo apt-get update'
 sudo apt-get update
 
-echo '----------------------------------'
-echo 'sudo apt-get install -y curl unzip'
-sudo apt-get install -y curl unzip
+echo '---------------------------------------'
+echo 'sudo apt-get install -y curl unzip wget'
+sudo apt-get install -y curl unzip wget
 
 echo '-----------------'
 echo 'Downloading Pgweb'
