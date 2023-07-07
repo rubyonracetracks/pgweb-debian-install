@@ -1,0 +1,10 @@
+FROM ghcr.io/rubyonracetracks/image-debian-<SUITE>-min-stage1
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+WORKDIR /home/winner/pgweb-debian-install
+
+COPY . .
+
+RUN sudo chown -R winner:winner /home/winner/pgweb-debian-install && \
+    cd /home/winner/pgweb-debian-install && bin/main
