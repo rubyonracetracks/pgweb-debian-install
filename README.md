@@ -1,3 +1,5 @@
+[![CI](https://github.com/rubyonracetracks/pgweb-debian-install/actions/workflows/ci.yml/badge.svg)](https://github.com/rubyonracetracks/pgweb-debian-install/actions/workflows/ci.yml)
+
 # Install Pgweb in Debian Linux
 
 This repository is dedicated to the installation of Pgweb in a Debian-based OS.  Pgweb is used for viewing PostgreSQL databases.
